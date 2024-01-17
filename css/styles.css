@@ -33,8 +33,6 @@ a {
 
 .header-menu-item {
     color: #2E2F42;
-    color: #404bbf;
-    color: #404bbf;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -44,7 +42,6 @@ a {
 
 
 .header-menu-item:hover,
-.header-menu-item:active,
 .header-menu-item:focus {
     color: #404bbf;
 }
@@ -62,8 +59,8 @@ a {
 }
  
 
-.address-lis:hover,
-.address-lis:focus {
+.address-list:hover,
+.address-list:focus {
     color: #404bbf;
     text-decoration: underline;
 }
@@ -120,7 +117,7 @@ a {
     text-transform: capitalize;
 }
 .team-fon {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .title-name {
     color: #2E2F42;
