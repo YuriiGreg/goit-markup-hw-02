@@ -1,12 +1,12 @@
 body {
     color: #434455;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        background: #FFF;
-        font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background: #FFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -33,13 +33,15 @@ a {
 
 .header-menu-item {
     color: #2E2F42;
+    color: #404bbf;
+    color: #404bbf;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-}
+
 
 .header-menu-item:hover,
 .header-menu-item:active,
@@ -49,6 +51,8 @@ a {
 
 .address {
     font-style: normal;
+}
+.address-list {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -56,9 +60,10 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+ 
 
-.addres:hover,
-.addres:focus {
+.address-lis:hover,
+.address-lis:focus {
     color: #404bbf;
     text-decoration: underline;
 }
@@ -67,7 +72,7 @@ a {
     background: #2E2F42;
 }
 .title {
-    color: #FFF;
+        color: #FFF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
@@ -75,7 +80,6 @@ a {
         letter-spacing: 0.02em;
 }
 .btn {
-        border-radius: 4px;
         background: #4D5AE5;
         color: #FFF;
         font-size: 16px;
